@@ -1,0 +1,87 @@
+html {
+  background-image: url(./bg3.jpg);
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+body {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+  min-height: 100%;
+  background-color: rgba(202, 165, 70, 0.705);
+  border: 1;
+  border-width: 10px;
+  border-style: double;
+  border-color: rgb(23, 0, 53);
+
+}
+
+Nav {
+  font-size: 28;
+  height: 2.8%;
+}
+
+.expanded {
+  font-stretch: expanded;
+  border-width: 4;
+  border: 1;
+  border-style: solid;
+  padding: 1%;
+  background-color: rgba(199, 150, 46, 0.068);
+  color: rgb(0, 0, 0);
+  border-color: rgba(255, 174, 0, 0.089);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.center-nav {
+  text-align: center;
+  padding-top: 2%;
+  
+}
+
+.page-name {
+  font-size: 64;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  letter-spacing: 7;
+ 
+  
+}
+
+#home-bio {
+  font-size: 36;
+  width: 40%;
+  margin-top: 12%;
+  margin-left: 2%;
+  float:left;
+}
+
+#home-pic-container {
+  height: 73%;
+  width: 48%;
+  border: 1;
+  border-width: 2;
+  border-style: solid;
+  border-color: rgb(23, 0, 53);
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+#home-pic {
+  height:100%;
+  width: 100%;
+  float: right;
+}
+
+hr {
+  border-style: solid;
+  border: 1;
+  border-width: 2;
+  border-top: 1;
+  border-color: rgb(23, 0, 53); 
+}
